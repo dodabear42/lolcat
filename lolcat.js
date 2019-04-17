@@ -120,3 +120,44 @@ var partyEvent = function() {
 
 partyTimeButton.addEventListener('click', partyEvent);
 
+
+// Set wake up time from dropdown, make it work here
+
+var wakeUpTimeSelector = document.getElementById("wakeUpTimeSelector");
+
+var wakeUpEvent = function()
+{
+  wakeUpTime = wakeUpTimeSelector.value;
+  
+  
+};
+
+wakeUpTimeSelector.addEventListener('change', wakeUpEvent);
+
+
+// Set lunch time from dropdown, make it work here
+
+var lunchTimeSelector = document.getElementById("lunchTimeSelector");
+
+var lunchEvent = function()
+{
+  lunchTime = lunchTimeSelector.value;
+  
+  
+};
+
+lunchTimeSelector.addEventListener('change', lunchEvent);
+
+
+// Set nap time from dropdown, make it work here
+
+var napTimeSelector = document.getElementById("napTimeSelector");
+
+var napTimeEvent = function()
+{
+  napTime = napTimeSelector.value;
+  
+  
+};
+
+napTimeSelector.addEventListener('change', napTimeEvent);
